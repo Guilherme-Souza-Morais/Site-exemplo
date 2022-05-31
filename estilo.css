@@ -1,0 +1,37 @@
+*{ 
+    margin: 0 auto;
+    text-align: center;
+}
+
+main{
+    padding: 15px 40px  10px 40px;
+}
+
+main article {
+    margin: 0px 0px 20px 0px;
+}
+
+hr{
+    height: 1pxi;
+    background-image: linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0));
+}
+
+#produtos-info{
+    writing-mode: vertical-lr;
+    font-size: 10px;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: 0;
+    position: fixed;
+}
+
+p::first-letter {
+    font-size: 250%;
+}
+
+#produtos-info:hover {
+    background-color: rgb(68, 68, 68);
+    cursor: pointer;
+}
